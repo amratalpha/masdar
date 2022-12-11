@@ -25516,6 +25516,7 @@ img.employee-offer-logo {
     border-radius: 50%;
     padding: 3px;
     box-shadow: 2px 2px 3px #444;
+    background-color: #fff;
 }
 .card-body.slider-card img{
     max-width: 100px;
