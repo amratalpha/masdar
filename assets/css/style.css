@@ -12124,6 +12124,18 @@ fieldset:disabled .wizard>.actions a,
     background-color: #7b6e66;
     border-color: #7b6e66;
 }
+.btn-outline-blue {
+    color: #1686bc;
+    background-color: transparent;
+    background-image: none;
+    border-color: #1686bc;
+}
+
+.btn-outline-blue:hover {
+    color: #fff;
+    background-color: #1686bc;
+    border-color: #1686bc;
+}
 
 .btn-outline-primary:focus,
 .btn-outline-primary.focus {
@@ -22969,6 +22981,14 @@ img.employee-offer-logo {
     background-color: inherit;
 }
 
+.background-cover{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    background-color: #00000014;
+}
+
 .landing-page .banner-image {
     width: 100%;
 }
@@ -25489,6 +25509,13 @@ img.employee-offer-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.card-blue .card-body.slider-card img{
+    max-width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 3px;
+    box-shadow: 2px 2px 3px #444;
 }
 .card-body.slider-card img{
     max-width: 100px;
@@ -31858,6 +31885,13 @@ body.avgrund-active {
     border-radius: 4px!important;
 
 }
+
+.owl-carousel.full-width.banner-carousel .owl-stage-outer,
+.owl-carousel.full-width.banner-carousel .owl-stage,
+.owl-carousel.full-width.banner-carousel .owl-item{
+    height:inherit;
+}
+
 .owl-carousel.full-width .owl-nav .owl-prev i:before,
 .owl-carousel.full-width .owl-nav .owl-next i:before {
     font-size: 14px;

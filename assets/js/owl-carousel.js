@@ -83,7 +83,7 @@
   
     if ($('.nonloop').length) {
       $('.nonloop').owlCarousel({
-        items: 5,
+        items: 4,
         loop: true,
         margin: 10,
         autoplay: false,
@@ -97,7 +97,7 @@
             items: 3
           },
           1000: {
-            items: 5
+            items: 4
           }
         }
       });
