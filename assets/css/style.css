@@ -19,6 +19,9 @@
   .custom-sm-scroller::-webkit-scrollbar {
     width: 5px;
   }
+  .custom-sm-scroller2::-webkit-scrollbar {
+    width: 5px;
+  }
   .custom-lg-scroller::-webkit-scrollbar {
     width: 5px;
   }
@@ -26,12 +29,18 @@
   .custom-sm-scroller::-webkit-scrollbar-track {
     background: #ffffff00;
   }
-
+  .custom-sm-scroller2::-webkit-scrollbar-track {
+    background: #ffffff00;
+  }
   .custom-lg-scroller::-webkit-scrollbar-track {
     background: #ffffff00;
   }
 
   .custom-sm-scroller::-webkit-scrollbar-thumb {
+    background-color: #0095a1;
+    border-radius: 10px;
+  }
+  .custom-sm-scroller2::-webkit-scrollbar-thumb {
     background-color: #0095a1;
     border-radius: 10px;
   }
@@ -21699,7 +21708,7 @@ a.nav-link[aria-expanded="true"] i.menu-arrow {
     -webkit-align-items: stretch;
     align-items: stretch;
     padding: 0 2rem;
-    background: #1686bc;
+    background: White;
 }
 
 .navbar.horizontal-layout-navbar .navbar-brand-wrapper .navbar-brand img {
@@ -22116,7 +22125,7 @@ html {
 
 .container-scroller {
     overflow: hidden;
-    max-width: 1440px;
+    max-width: 1640px;
 }
 
 pre {
@@ -33628,5 +33637,12 @@ div.tagsinput span.tag a {
 }
 img.employee-offer-logo {
     width: 95% !important;
+}
+.custom-sm-scroller2 {
+    overflow-y: auto;
+    min-height: auto;
+    max-height: 200px;
+    scrollbar-width: thin;
+    scrollbar-color: #0095a1 #ffffff;
 }
 /*# sourceMappingURL=maps/style.css.map */
