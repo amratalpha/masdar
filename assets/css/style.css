@@ -15374,6 +15374,14 @@ input[type="button"].btn-block {
     line-clamp: 5; 
     -webkit-box-orient: vertical;
 }
+.text-limit-8{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    line-clamp: 8; 
+    -webkit-box-orient: vertical;
+}
 
 .card {
     position: relative;
@@ -33618,5 +33626,7 @@ div.tagsinput span.tag a {
     font-size: 43px;
     margin-right: 0;
 }
-
+img.employee-offer-logo {
+    width: 95% !important;
+}
 /*# sourceMappingURL=maps/style.css.map */
