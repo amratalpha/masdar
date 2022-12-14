@@ -33757,5 +33757,17 @@ figure:hover img{
     aspect-ratio: 16 / 13;
     transition: 400ms ease-in-out;
 }
-
+.Formtext{
+    width: 100%;
+    border-color: #0095a1;
+    border: 1px solid #0095a1;
+    border-radius: 3px;
+}
+.Formtext:focus
+{
+    width: 100%;
+    border-color: #0095a1;
+    border: 1px solid #0095a1;
+    border-radius: 3px;
+}
 /*# sourceMappingURL=maps/style.css.map */
