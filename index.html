@@ -34,18 +34,43 @@
      <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <div class="modal-header" style="padding: 10px 20px;">
+              <h5 class="modal-title text-blue" id="exampleModalLabel">Add to Quick Contact</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              ...
+                <form id="contact" action="" method="post">
+                    <div class="row">
+                    <div class="col-4">
+                        <p class="text-cGreen" style="margin: 0px; display: inline-block;">Name</p>
+                    </div>
+                    <div class="col-8">
+                        <input class="Formtext" placeholder="Enter Name" type="text" tabindex="2" required>
+                    </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-4">
+                    <p class="text-cGreen" style="margin: 0px; display: inline-block;">Contact</p>
+                </div>
+                <div class="col-8">
+                    <input class="Formtext" placeholder="Enter Contact " type="text" tabindex="2" required>
+                </div>
+        </div>
+        <div class="row pt-2">
+            <div class="col-4">
+                <p class="text-cGreen" style="margin: 0px; display: inline-block;">Email</p>
+            </div>
+            <div class="col-8">
+                <input class="Formtext" placeholder="Enter Email" type="text" tabindex="2" required>
+            </div>
+    </div>
+                    </form>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-primary" style="background: #0095a1">Save changes</button>
             </div>
           </div>
         </div>
@@ -55,18 +80,43 @@
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <div class="modal-header" style="padding: 10px 20px;">
+              <h5 class="modal-title text-blue" id="exampleModalLabel">Add to Favourite</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              ...
+                <form id="contact" action="" method="post">
+                <div class="row">
+                <div class="col-4">
+                    <p class="text-cGreen" style="margin: 0px; display: inline-block;">Service Name</p>
+                </div>
+                <div class="col-8">
+                    <input class="Formtext" placeholder="Service Name" type="text" tabindex="2" required>
+                </div>
+        </div>
+        <div class="row pt-2">
+            <div class="col-4">
+                <p class="text-cGreen" style="margin: 0px; display: inline-block;">Service Name Ar</p>
+            </div>
+            <div class="col-8">
+                <input class="Formtext" placeholder="Service Name in Arabic" type="text" tabindex="2" required>
+            </div>
+    </div>
+    <div class="row pt-2">
+        <div class="col-4">
+            <p class="text-cGreen" style="margin: 0px; display: inline-block;">Service Link</p>
+        </div>
+        <div class="col-8">
+            <input class="Formtext" placeholder="Enter Link" type="text" tabindex="2" required>
+        </div>
+</div>
+                </form>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-primary" style="background: #0095a1">Save changes</button>
             </div>
           </div>
         </div>
@@ -1303,7 +1353,7 @@
                       
                 </div>
             </div>
-            <div class="col-md-3 grid-margin stretch-card">
+            <div class="col-md-6 grid-margin stretch-card">
                 <div class="card  new-joiners">
                     <div class="card-header" style=" padding-bottom: 0px; ">
                         <div class="d-flex align-items-baseline justify-content-between">
@@ -1326,7 +1376,7 @@
                                 <div class="tab-content pt-0" id="pills-tabContent">
                                     <div class="tab-pane fade active show" id="pills-home1" role="tabpanel" aria-labelledby="pills-home-tab">
                                         <div class="row">
-                                            <div class="owl-carousel owl-theme half-width1">
+                                            <div class="owl-carousel owl-theme half-width">
                                                 <div class="item">
                                                     <div class="card-body slider-card p-0">
                                                         <img class="img-fluid" style="border-radius: 10%;" src="assets/images/avatar7.png" alt="">
@@ -1353,7 +1403,7 @@
                                     </div>
                                     <div class="tab-pane fade" id="pills-profile1" role="tabpanel" aria-labelledby="pills-profile-tab">
                                         <div class="row">
-                                            <div class="owl-carousel owl-theme half-width1">
+                                            <div class="owl-carousel owl-theme half-width">
                                                 <div class="item">
                                                     <div class="card-body slider-card p-0">
                                                         <img class="img-fluid" style="border-radius: 10%;" src="assets/images/avatar7.png" alt="">
@@ -1380,7 +1430,7 @@
                                     </div>
                                     <div class="tab-pane fade" id="pills-contact1" role="tabpanel" aria-labelledby="pills-contact-tab">
                                         <div class="row">
-                                            <div class="owl-carousel owl-theme half-width1">
+                                            <div class="owl-carousel owl-theme half-width">
                                                 <div class="item">
                                                     <div class="card-body slider-card p-0">
                                                         <img class="img-fluid" style="border-radius: 10%;" src="assets/images/avatar7.png" alt="">
@@ -1407,7 +1457,7 @@
                                     </div>
                                     <div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact-tab">
                                         <div class="row">
-                                            <div class="owl-carousel owl-theme half-width1">
+                                            <div class="owl-carousel owl-theme half-width">
                                                 <div class="item">
                                                     <div class="card-body slider-card p-0">
                                                         <img class="img-fluid" style="border-radius: 10%;" src="assets/images/avatar7.png" alt="">
@@ -1444,7 +1494,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 grid-margin stretch-card">
+            <!-- <div class="col-md-3 grid-margin stretch-card">
                 <div class="card  new-joiners">
                     <div class="card-header" style=" padding-bottom: 0px; ">
                         <div class="d-flex align-items-baseline justify-content-between">
@@ -1495,7 +1545,7 @@
                     </div>
                       
                 </div>
-            </div>
+            </div> -->
           </div>
           <div class="row">
           
@@ -1549,7 +1599,7 @@
                             </h4>
                             <i class="fa-solid fa-plus" type="button"  data-toggle="modal" data-target="#exampleModal" style="background: #1686bc; padding: 3px; color: white; border-radius: 30px;"></i>
                         </div>
-                        <hr>
+                        <hr style="margin-bottom:0px;">
                     </div>
                     <div class="card-body">
                         <div class="parent favouriteGrid">
