@@ -148,6 +148,32 @@
         }
       });
     }
+    if ($('.half-width1').length) {
+      $('.half-width1').owlCarousel({
+        items: 1,
+        lazyLoad: true,
+        loop: true,
+        margin: 20,
+        autoplay: true,
+        mouseDrag: true,
+        animateIn: 'fadeIn', // add this
+        animateOut: 'fadeOut', // and this
+        autoplayTimeout: 50000,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1000: {
+            items: 1
+          }
+        },
+        navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
+      });
+    }
     
     if ($('.video-carousel').length) {
       $('.video-carousel').owlCarousel({
