@@ -25564,6 +25564,7 @@ img.employee-offer-logo {
     box-shadow: rgb(0 0 0 / 73%) 2px 2px 4px -3px;;
     border-radius: 10px;
     transition: 1s;
+    cursor: pointer;
 }
 
 .parent.favouriteGrid .childGrid:hover{
@@ -33770,4 +33771,5 @@ figure:hover img{
     border: 1px solid #0095a1;
     border-radius: 3px;
 }
+.cursorr{cursor: pointer;}
 /*# sourceMappingURL=maps/style.css.map */
