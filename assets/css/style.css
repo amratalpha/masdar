@@ -3,7 +3,7 @@
   .custom-sm-scroller {
     overflow-y: auto;
     min-height: auto;
-    max-height: 370px;
+    max-height: 310px;
     scrollbar-width: thin;
     scrollbar-color: #0095a1 #ffffff;
   }
